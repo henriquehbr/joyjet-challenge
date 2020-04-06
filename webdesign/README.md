@@ -1,4 +1,3 @@
-
 # Joyjet tech interview
 
 This is a test to analyze knowledge in web development, using specifics resources.
