@@ -7,7 +7,7 @@
 	"scripts": {
 		"dev": "rollup -c -w",
 		"build": "rollup -c",
-		"deploy": "yarn build && gh-pages -d dist -b master"
+		"deploy": "yarn build && gh-pages -d public -b master"
 	},
 	"devDependencies": {
 		"@rollup/plugin-alias": "^3.0.1",
