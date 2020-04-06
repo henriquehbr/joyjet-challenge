@@ -77,7 +77,7 @@
 </style>
 
 <section>
-	<img src="../img/sattelite.jpg" alt="Sattelite Image" />
+	<img src="img/sattelite.jpg" alt="Sattelite Image" />
 	<article>
 		<h3>About us</h3>
 		<p>

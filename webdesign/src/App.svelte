@@ -71,13 +71,13 @@
 	<Loadable loader={() => import('components/Trending')} />
 {/if}
 <Svezy loader={() => import('components/Carousel')} pageDots={false} cellAlign="left" freeScroll={true} contain={true}>
-	<Card img="../img/space-station.jpg" title="International Space Station">
+	<Card img="img/space-station.jpg" title="International Space Station">
 		Lorem ipsum dolor sit amet consectetur adipiscing elit. Curabitur luctus aliquet sapien...
 	</Card>
-	<Card img="../img/sattelite.jpg" title="My capsule">
+	<Card img="img/sattelite.jpg" title="My capsule">
 		Lorem ipsum dolor sit amet consectetur adipiscing elit. Curabitur luctus aliquet sapien...
 	</Card>
-	<Card img="../img/moon.jpg" title="My moon">
+	<Card img="img/moon.jpg" title="My moon">
 		Lorem ipsum dolor sit amet consectetur adipiscing elit. Curabitur luctus aliquet sapien...
 	</Card>
 </Svezy>
