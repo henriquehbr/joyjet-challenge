@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "rollup -c -w",
-		"build": "rollup -c"
+		"build": "rollup -c",
+		"deploy": "yarn build && gh-pages -d dist -b master"
 	},
 	"devDependencies": {
 		"@rollup/plugin-alias": "^3.0.1",
@@ -14,6 +15,7 @@
 		"@rollup/plugin-node-resolve": "^7.1.1",
 		"@rollup/plugin-typescript": "^4.0.0",
 		"@types/flickity": "^2.2.2",
+		"gh-pages": "^2.2.0",
 		"less": "^3.11.1",
 		"postcss": "^7.0.27",
 		"rollup": "^2.3.3",

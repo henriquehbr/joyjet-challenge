@@ -24,7 +24,7 @@ The project must be built following a writing standard established by you, and t
 
 Example :
 
-![Alt Text](images/story.gif)
+![Alt Text](img/story.gif)
 
 
 OBS: Will be a great differential if you use the [Scss version of the bootstrap 4+](https://getbootstrap.com/docs/4.0/getting-started/theming/).
